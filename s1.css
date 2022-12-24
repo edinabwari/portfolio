@@ -1,0 +1,45 @@
+#terminal-box{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;    
+    height: 60vh;
+    width: 80vh;
+    border-style: solid;
+    background-color:  rgb(46, 43, 43);
+    border-radius: 10px;
+
+}
+#navigations-bar{
+    border-style: solid;
+    border-color: black;
+    background-color: black;
+    height: 4.5vh;
+}
+#navigation-buttons{
+    display: flex;
+    padding: 2px;
+}
+#navigation-buttons1{
+    background-color: red;
+    height: 3vh;
+    width: 3vh;
+    border-style: solid;
+    border-radius: 10px;
+
+}
+#navigation-buttons2{
+    background-color: orange;
+    height: 3vh;
+    width: 3vh;
+    border-style: solid;
+    border-radius: 10px;
+
+}
+#navigation-buttons3{
+    background-color:greenyellow;
+    height: 3vh;
+    width: 3vh;
+    border-style: solid;
+    border-radius: 10px;
+
+}

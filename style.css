@@ -1,0 +1,25 @@
+body{
+    background-color: black;
+}
+
+
+
+
+li{
+    display:inline;
+}
+li a{
+    padding: 15vh;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+li a:visited{
+    text-decoration: underline;
+    text-decoration-color:aquamarine ;
+
+}
+ li a:hover{
+    transition: transform 0.2s;
+    transform: translateY(-20px);
+}
