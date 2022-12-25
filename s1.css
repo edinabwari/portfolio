@@ -1,12 +1,32 @@
-#terminal-box{
+
+
+
+
+
+
+
+#all-terminals{
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+#all-terminals #terminal-box{
     display: block;
     margin-left: auto;
-    margin-right: auto;    
+    margin-right: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+#terminal-box{/**
+    display: block;
+    margin-left: auto;
+    margin-right: auto; **/   
     height: 60vh;
     width: 80vh;
     border-style: solid;
     background-color:  rgb(46, 43, 43);
     border-radius: 10px;
+    box-shadow: 8px 8px #988d8d;
 
 }
 #navigations-bar{
@@ -42,4 +62,18 @@
     border-style: solid;
     border-radius: 10px;
 
+}
+#terminal-box #content{
+    color: white;    
+    font-family: monospace;
+    font-weight:bolder;    
+    padding: 25px;
+
+}
+
+#copyright{
+    color: black;
+    font-family: monospace;
+    letter-spacing: 3px;
+    
 }
