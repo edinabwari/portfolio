@@ -6,6 +6,7 @@ body{
 li{
     display:inline;
 }
+
 li a{
     padding: 15vh;
     text-decoration: none;
@@ -31,8 +32,7 @@ li a:visited{
     margin: 0px 10px;
     padding:25px;
     flex:40%;
-    height: 70vh;
-    
+    height: 70vh; 
 }
 h3 {
     color: white;
