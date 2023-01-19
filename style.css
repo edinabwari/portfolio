@@ -112,9 +112,9 @@ h3 {
    50% { transform: rotate(10.0deg) }
 
    60% { transform: rotate( 0.0deg) }  /* Reset for the last half to pause */
-=======
+
    60% { transform: rotate( 0.0deg) }  
->>>>>>> fe4632304a2f67a5fc84c0a1ba74bf4a9f3ae2ca
+
   100% { transform: rotate( 0.0deg) }
 }
 
