@@ -1,5 +1,4 @@
 body{
-<<<<<<< HEAD
     background-color: rgb(16, 16, 16);
     height: 100%;
     overflow: hidden;
@@ -7,11 +6,9 @@ body{
 p{
     color: white;
     font-size: 22px;
-=======
     background-color: black;
     height: 100%;
     overflow: hidden;
->>>>>>> fe4632304a2f67a5fc84c0a1ba74bf4a9f3ae2ca
 }
 li{
     display:inline;
@@ -57,7 +54,7 @@ li a{
 #social-media-handles{
     padding: 5px;
 }
-<<<<<<< HEAD
+
 h3 {
     padding: 10px;
     color: white;
@@ -76,9 +73,7 @@ h3 p{
 }*/
 
 
-#hello-hand
-{
-=======
+
 #row{
     display: flex;
 }
@@ -97,7 +92,6 @@ h3 {
     font-family: monospace;
 }
 #hello-hand{
->>>>>>> fe4632304a2f67a5fc84c0a1ba74bf4a9f3ae2ca
     display: inline-block;
     animation-name: hand;
     animation-duration: 2s;
@@ -107,16 +101,16 @@ h3 {
 }
 @keyframes hand{
     0% { transform: rotate( 0.0deg) }
-<<<<<<< HEAD
+
    10% { transform: rotate(14.0deg) }  /* The following five values can be played with to make the waving more or less extreme */
-=======
+
    10% { transform: rotate(14.0deg) } 
->>>>>>> fe4632304a2f67a5fc84c0a1ba74bf4a9f3ae2ca
+
    20% { transform: rotate(-8.0deg) }
    30% { transform: rotate(14.0deg) }
    40% { transform: rotate(-4.0deg) }
    50% { transform: rotate(10.0deg) }
-<<<<<<< HEAD
+
    60% { transform: rotate( 0.0deg) }  /* Reset for the last half to pause */
 =======
    60% { transform: rotate( 0.0deg) }  
